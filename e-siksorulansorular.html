@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Ticaret Rehberi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Üst Menü -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="image/logo1.png" alt="logo1"></a></div>
+    <ul>
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="e-adimlar.html">Adımlar</a></li>
+      <li><a href="e-araclar.html">Araçlar</a></li>
+      <li><a href="e-siksorulansorular.html" class="active">Sık Sorulan Sorular</a></li>
+      <li><a href="e-iletisim.html">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero8">
+    <h1>Sık Sorulan Sorular?</h1>
+    <p>E-Ticaret hakkında merak ettiğiniz tüm sorular ve cevapları burada!</p>
+    <a href="#steps" id="cta-btn" class="cta">Aşağı Kaydır!</a>
+  </header>
+
+  <section id="steps">
+    <section class="section">
+      <br>
+      <h2>E-Ticaret Nedir?</h2>
+      <p>
+        E-ticaret, "elektronik ticaret" anlamına gelir ve ürünlerin veya hizmetlerin internet üzerinden alınıp
+        satılmasını ifade eder. Bu ticaret modeli, bireyler ve işletmeler arasında gerçekleşebilir. Günümüzde, e-ticaret
+        geleneksel mağazacılığın yerini hızla alırken, ticaret dünyasında büyük bir dönüşüme yol açmıştır. Artık bir
+        ürün almak için fiziksel mağazalara gitmek yerine, kullanıcılar internet üzerinden istedikleri ürünleri kolayca
+        bulabiliyor ve satın alabiliyor.
+        <br>E-ticaret, işletmelerin tüketicilere ulaşmasını kolaylaştıran ve alışverişi herkes için daha erişilebilir
+        hale getiren bir sistemdir. Hem işletmeler için maliyetleri düşüren hem de tüketicilere zamandan tasarruf
+        sağlayan e-ticaret, dijital çağın en önemli yeniliklerinden biridir.
+      </p>
+      <br>
+      <h2>Hangi e-ticaret platformunu kullanmalıyım?</h2>
+      <p>
+        E-ticaret platformu seçerken işletmenizin ihtiyaçlarına ve büyüklüğüne uygun bir seçim yapmak önemlidir. Popüler
+        e-ticaret platformları arasında Shopify, WooCommerce, Magento ve BigCommerce gibi seçenekler bulunmaktadır.
+        İhtiyaçlarınızı ve bütçenizi göz önünde bulundurarak en uygun platformu seçmelisiniz.
+      </p>
+      <!-- İçerik Bölümü -->
+      <br>
+      <h2>E-ticaret sistemi kurmak için ne kadar sermaye gereklidir?</h2>
+      <p>
+        E-ticaret sistemi kurmak için gereken sermaye, işletmenizin büyüklüğüne, ürün yelpazesine ve pazarlama
+        stratejilerine bağlı olarak değişebilir. İlk etapta küçük çaplı bir e-ticaret sitesi için düşük bir sermaye
+        yeterli olabilirken, daha büyük bir işletme için daha fazla yatırım yapmanız gerekebilir.
+      </p>
+      <!-- İçerik Bölümü -->
+      <br>
+      <h2>E-ticaret sitelerinde güvenlik nasıl sağlanır?</h2>
+      <p>
+        E-ticaret sitelerinde güvenlik, müşteri bilgilerinin ve ödeme işlemlerinin korunması açısından hayati önem
+        taşır. SSL sertifikası gibi güvenlik önlemleri alarak müşteri bilgilerinin şifrelenmesini sağlayabilirsiniz.
+        Ayrıca, güvenilir ödeme sağlayıcıları ve güçlü şifre politikaları kullanmak da güvenliği artıran adımlardır.
+      </p>
+      <!-- İçerik Bölümü -->
+      <br>
+      <h2>E-ticaret sistemi kurduktan sonra ne gibi destekler alabilirim?</h2>
+      <p>
+        E-ticaret sistemi kurduktan sonra teknik destek ve müşteri hizmetleri gibi destekleri alabilirsiniz. E-ticaret
+        platformu sağlayıcıları genellikle kullanıcılara teknik destek sunar ve sorularınıza yanıt verir. Ayrıca,
+        e-ticaret uzmanlarından danışmanlık alarak işletmenizi geliştirebilir ve büyütebilirsiniz.
+      </p>
+      <!-- İçerik Bölümü -->
+      <br>
+      <p>
+        ⚠️ Unutmayın, e-ticaret başarısı sürekli bir çaba gerektirir ve rekabetçi bir ortamda faaliyet gösterirsiniz. 💪
+        🌟 Müşteri odaklılık, sürekli iyileştirme 🔧 ve doğru pazarlama stratejileriyle başarıya ulaşabilir ve
+        işletmenizi büyütebilirsiniz. 📊
+        💼 Başarılı bir e-ticaret sistemi, sizin ve müşterilerinizin kazanacağı bir deneyim sunar 🏆 ve sizi dijital
+        ticaret dünyasında öne çıkarır. 🌍 <br>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 E-Ticaret Rehberi - Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="javascript.js"></script>
+
+    <script>
+      // Butona tıklandığında kaydırma işlemi
+      document.getElementById("cta-btn").addEventListener("click", function (event) {
+        event.preventDefault(); // Sayfanın otomatik kaymasını engeller
+        const target = document.getElementById("steps"); // Kaydırılacak hedef bölüm
+        target.scrollIntoView({
+          behavior: 'smooth', // Yumuşak kaydırma
+          block: 'start'      // Hedefi başa hizalama
+        });
+      });
+    </script>
+</body>
+
+</html>

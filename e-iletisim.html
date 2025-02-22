@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Ticaret Rehberi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Üst Menü -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="image/logo1.png" alt="logo1"></a></div>
+    <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="e-adimlar.html">Adımlar</a></li>
+        <li><a href="e-araclar.html">Araçlar</a></li>
+        <li><a href="e-siksorulansorular.html">Sık Sorulan Sorular</a></li>
+        <li><a href="e-iletisim.html">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Bölümü -->
+  <header id="home" class="hero10">
+    <h1>Bizimle İletişime Geçin</h1>
+    <p>Başarılı bir e-ticaret işine başlamak için rehberimizi keşfedin!</p>
+    <a href="#steps" class="cta">Aşağı Kaydır!</a>
+  </header>
+
+  <!-- İletişim -->
+  <section id="steps" class="section contact">
+    <img src="image/insan.png" width="400px" align="right">
+
+    <h2>İletişim</h2>
+    <p>-  Merak ettikleriniz için bizimle iletişime geçin:</p>
+
+    <form id="contactForm" onsubmit="submitForm(event)">
+      <input type="text" id="name" placeholder="Adınız" required>
+      <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+      <textarea id="message" placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+
+  </section>
+  </section>
+  <footer>
+    <p>© 2024 E-Ticaret Rehberi - Tüm Hakları Saklıdır.</p>
+  </footer>
+
+</body>
+</html>
